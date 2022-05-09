@@ -35,16 +35,16 @@ In order to follow this guide you need to have weka installed.
 
 1) Open Weka and choose experiment mode.
 2)	Click on the new button then define the result destination and type of file.
-image
+![image1](assets/image1.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 3)	Choose the experiment Type (By default Cross-validation with 10 folds), whether it is a classification or a regression (By default classification).
-image
+![image1](assets/image2.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 4)	Add datasets to your experiment with the add new button in dataset section.You can add more than one dataset to work on (We used ```iris dataset``` for this example)
-image
+![image1](assets/image3.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 5)	Add algorithms to your experiment with the add new button in algorithms section. You can add more than one algorithm to work with (To compare between them).
 Configure each algorithm parameters.
-image
+![image1](assets/image4.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 6)	Run the experiment with run button and visualize the results.
-image
+![image1](assets/image5.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
  <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Result file
@@ -60,15 +60,14 @@ If we want to have an idea on the hardware performance, we can take a look at th
 
 **Experiment**:Use J48, Random Forest, Naive Bayes, IBK k=1, IBK k=3, IBK k=5, IBK k=10 on multiple Datasets (IRIS, Glass, Weather).</br>
 We will need ARFF file extension so we can use the analyzer.
-Image
+![image1](assets/image6.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 We go to analyze and then click on experiment then perform test.
-In this case we are comparing relative to the ```percentage of correctly classified instances```.
-All the algorithms are compared relatively to J48 which can be changed (Values stays the same).
-image
+In this case we are comparing relative to the ```percentage of correctly classified instances```. All the algorithms are compared relatively to **J48** which can be changed (Values stays the same).
+![image1](assets/image7.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### Analyzing results
 
-image
+![image1](assets/image8.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 
 \*: Significantly worse. </br>
 V: Significantly better. 
@@ -83,4 +82,4 @@ This figure tells us that: </br>
 
 We can change test base to IBK5 to verify what we said on the Glass dataset: 
 
-image
+![image1](assets/image9.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
