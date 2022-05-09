@@ -31,7 +31,7 @@ This repository contains 4 different labs about data mining.Each lab introduces 
 
 * [Weka]
 * [Python](https://www.python.org/).
-* [Jupyter](https://jupyter.org/
+* [Jupyter](https://jupyter.org/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
