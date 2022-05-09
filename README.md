@@ -55,6 +55,25 @@ Clone the repo
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Content
+### Lab1
+It represents an introduction to **Weka** (Waikato environment for knowledge analysis).You will be able to : 
+1- Discover some datasets(including the famous _iris_ Dataset).
+2- Create classifiers(Decision Tree).
+3- Visualize and interpret data.
+4- Use features filters
+
+### Lab2
+It represents an introduction to **Weka experimenter interface**.You will be able to : 
+1- Generate CSV files containing experiment details.
+2- interpret the different test results.
+3- Compare different algorithms using the **weka analyzer**.
+
+### Lab3 :  Supervised Classification
+It represents an introduction to the **scikit-learn Python library**.You will be able to : 
+1- Read and manipulate Datasets (Iris Dataset).
+2- Create and use a classifier with different algorithms (Naïve Bayes, Decision Trees).
+3- Evaluate classifier performances (Calculating errors).
+4- Use cross-validation to evaluate the classifier.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
